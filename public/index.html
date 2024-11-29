@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="app">
+        <div class="Join-screen active">
+            <div class="form">
+                <h2>Join ChatRoom</h2>
+
+                <div class="join">
+                    <label for="username">Username</label>
+                    <input type="text" id="nickname" maxlength="16">
+                    <button id="join-btn">Join</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-screen">
+            <div class="header">
+                <h1>ChatRoom</h1>
+                <button>Exit<i class='bx bxs-exit'></i></button>
+            </div>
+
+            <div class="messages">
+                <!-- <div class="my message">
+                    <div>
+                        <div class="name">me</div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam minima, fuga eligendi consectetur quisquam aperiam ratione inventore ab. Reiciendis officia nam eum vel mollitia tenetur cum suscipit placeat voluptate quibusdam laborum iste pariatur, ab vitae doloribus accusantium at architecto est ea voluptatem magnam voluptates voluptatibus perspiciatis! Ratione nihil ex, adipisci odio quae numquam suscipit voluptatibus omnis ullam facere id incidunt assumenda temporibus? Tempora delectus voluptatibus quae voluptas itaque facere asperiores quia dicta. Vel atque magni, quos laboriosam a ipsum quis alias ex, temporibus quod laudantium corrupti, assumenda dicta non quam labore veritatis officiis libero pariatur culpa illo ducimus voluptate.</div>
+                    </div>
+                </div>
+
+                <div class="update">
+                    abc has joined chat
+                </div>
+
+                <div class="other message">
+                    <div>
+                        <div class="name">abc</div>
+                        <div class="text">Hello</div>
+                    </div>
+                </div>
+
+                <div class="my message">
+                    <div>
+                        <div class="name">me</div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam minima, fuga eligendi consectetur quisquam aperiam ratione inventore ab. Reiciendis officia nam eum vel mollitia tenetur cum suscipit placeat voluptate quibusdam laborum iste pariatur, ab vitae doloribus accusantium at architecto est ea voluptatem magnam voluptates voluptatibus perspiciatis! Ratione nihil ex, adipisci odio quae numquam suscipit voluptatibus omnis ullam facere id incidunt assumenda temporibus? Tempora delectus voluptatibus quae voluptas itaque facere asperiores quia dicta. Vel atque magni, quos laboriosam a ipsum quis alias ex, temporibus quod laudantium corrupti, assumenda dicta non quam labore veritatis officiis libero pariatur culpa illo ducimus voluptate.</div>
+                    </div>
+                </div>
+
+                <div class="other message">
+                    <div>
+                        <div class="name">abc</div>
+                        <div class="text">Hello</div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="message-input">
+                <input type="text">
+                <button><i class='bx bxs-paper-plane'></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
